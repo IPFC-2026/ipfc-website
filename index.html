@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Institute of Personal Financial Coaching</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background: #f7f5ef;
+      color: #1f2933;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #071f3d, #123a63);
+      color: white;
+      padding: 28px 8%;
+      border-bottom: 6px solid #c9a227;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      margin-left: 25px;
+      font-size: 15px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 90px 8%;
+      background: linear-gradient(rgba(7,31,61,.88), rgba(7,31,61,.88)),
+      url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
+
+    .seal {
+      width: 110px;
+      height: 110px;
+      border: 4px solid #c9a227;
+      border-radius: 50%;
+      margin: 0 auto 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 34px;
+      font-weight: bold;
+      color: #c9a227;
+      background: rgba(255,255,255,.08);
+    }
+
+    .hero h1 {
+      font-size: 52px;
+      margin-bottom: 15px;
+      letter-spacing: 1px;
+    }
+
+    .hero p {
+      font-size: 22px;
+      max-width: 850px;
+      margin: 0 auto 30px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 28px;
+      margin: 8px;
+      background: #c9a227;
+      color: #071f3d;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+
+    .button.secondary {
+      background: white;
+      color: #071f3d;
+    }
+
+    section {
+      padding: 70px 8%;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 36px;
+      color: #071f3d;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .intro {
+      text-align: center;
+      max-width: 900px;
+      margin: auto;
+      font-size: 19px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-top: 5px solid #c9a227;
+      box-shadow: 0 5px 18px rgba(0,0,0,.08);
+      border-radius: 6px;
+    }
+
+    .card h3 {
+      color: #071f3d;
+      margin-bottom: 12px;
+      font-size: 24px;
+    }
+
+    .highlight {
+      background: #071f3d;
+      color: white;
+      text-align: center;
+      padding: 70px 8%;
+      max-width: none;
+    }
+
+    .highlight h2 {
+      color: white;
+    }
+
+    .credential {
+      font-size: 54px;
+      color: #c9a227;
+      font-weight: bold;
+      margin: 15px 0;
+    }
+
+    footer {
+      background: #071f3d;
+      color: white;
+      text-align: center;
+      padding: 35px 8%;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #c9a227;
+      text-decoration: none;
+    }
+
+    @media (max-width: 700px) {
+      .hero h1 {
+        font-size: 34px;
+      }
+
+      .hero p {
+        font-size: 18px;
+      }
+
+      .nav-links {
+        margin-top: 15px;
+      }
+
+      .nav-links a {
+        display: inline-block;
+        margin: 8px 10px 0 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <div class="logo">IPFC</div>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">CPFP</a>
+      <a href="#">Verify</a>
+      <a href="#">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<div class="hero">
+  <div class="seal">IPFC</div>
+  <h1>Institute of Personal Financial Coaching</h1>
+  <p>Advancing excellence in personal financial education, coaching, ethics, and competency-based certification.</p>
+  <a href="#" class="button">Become Certified</a>
+  <a href="#" class="button secondary">Verify Certification</a>
+</div>
+
+<section>
+  <h2>Our Mission</h2>
+  <p class="intro">
+    The Institute of Personal Financial Coaching is dedicated to developing knowledgeable, ethical, and practical financial coaches who help individuals and families make informed decisions about money, debt, saving, investing, retirement, and long-term financial security.
+  </p>
+</section>
+
+<section>
+  <h2>Professional Standards</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Education</h3>
+      <p>IPFC promotes strong foundational knowledge in personal finance, budgeting, investing, retirement planning, insurance, taxation, estate planning, and financial behavior.</p>
+    </div>
+
+    <div class="card">
+      <h3>Ethics</h3>
+      <p>Certified professionals are expected to act with honesty, integrity, transparency, and respect for the individuals and families they serve.</p>
+    </div>
+
+    <div class="card">
+      <h3>Verification</h3>
+      <p>IPFC maintains a certification verification system so individuals may confirm credential status and certification information.</p>
+    </div>
+  </div>
+</section>
+
+<section class="highlight">
+  <h2>Featured Credential</h2>
+  <div class="credential">CPFP™</div>
+  <h3>Certified Personal Financial Planner™</h3>
+  <p class="intro">
+    The CPFP™ designation recognizes individuals who have demonstrated competency in personal financial planning, coaching, retirement planning, investing fundamentals, debt management, risk management, taxation basics, and ethical financial education.
+  </p>
+</section>
+
+<section>
+  <h2>Certification Pathway</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>1. Complete Education</h3>
+      <p>Applicants complete approved personal finance, investing, retirement, tax, insurance, and estate planning coursework.</p>
+    </div>
+
+    <div class="card">
+      <h3>2. Submit Proof</h3>
+      <p>Applicants provide documentation of completed courses, certificates, or approved professional learning.</p>
+    </div>
+
+    <div class="card">
+      <h3>3. Earn Certification</h3>
+      <p>Approved applicants receive a unique certification number and are added to the IPFC verification registry.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p class="intro">
+    For certification questions, verification requests, or future applicant information, please contact the Institute of Personal Financial Coaching.
+  </p>
+  <p class="intro" style="margin-top:20px;">
+    <strong>Email:</strong> certification@instituteofpersonalfinancialcoaching.org
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Institute of Personal Financial Coaching. All rights reserved.</p>
+  <p>Certified Personal Financial Planner™ and CPFP™ are planned certification marks of the Institute of Personal Financial Coaching.</p>
+</footer>
+
+</body>
+</html>
